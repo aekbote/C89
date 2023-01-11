@@ -31,7 +31,7 @@ export default class DrawerNavigator extends Component{
         screenOptions={{ headerShown: false }}
       >
         <Drawer.Screen
-          name="MyHome"
+          name="Home"
           component={StackNavigator}
           options={{ unmountOnBlur: true }}
         />
